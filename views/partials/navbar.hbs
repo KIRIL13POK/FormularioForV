@@ -1,0 +1,35 @@
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Registro Mentor vVv</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+         {{#if esLaPrincipal}}
+         <li class="active"><a href="/principal">Principal</a></li>
+        {{else}}
+         <li><a href="/principal"> Principal</a></li>
+        {{/if}}
+
+         {{#if iniciarSesion}}
+         <li class="active"><a href="/iniciar">Iniciar Sesión</a></li>
+        {{else}}
+         <li><a href="/iniciar">Iniciar Sesión</a></li>
+        {{/if}}
+
+        {{#if crearCuenta}}
+         <li class="active"><a href="/formulario">Crear Cuenta</a></li>
+        {{else}} 
+         <li><a href="/formulario">Crear Cuenta</a></li>
+        {{/if }}
+
+        {{#if recuperarPass}}
+         <li class="active"><a href="/recuperarPass">Recuperar Password</a></li>
+        {{else}}
+         <li><a href="/recuperarPass">Recuperar Password</a></li>
+        {{/if}}
+        
+        
+      </ul>
+    </div>
+  </nav>
+        

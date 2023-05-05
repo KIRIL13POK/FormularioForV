@@ -1,0 +1,14 @@
+.nav-wrapper{
+    padding: 0 2rem;
+}
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #13074a;
+    color: #fff;
+    padding: 10px;
+    
+  }
+  
+  
