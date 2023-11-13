@@ -35,8 +35,7 @@ app.use ('/recuperarPass', routesRecuperarPass);
 app.use ( '/dentro', routesDentro);
 
 //---------------------Serever------------------------
-const port = 4000;
+const port = 8080;
 app.listen(port, () => {
     console.log(`El Servidor esta escuchando en el puerto ${port}`)
-})
-;
+});
